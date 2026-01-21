@@ -1,0 +1,4 @@
+success_rate,1.0
+collision_rate,0.65
+SPL,0.8314770870420937
+avg_steps_success,35.57

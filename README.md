@@ -1,17 +1,14 @@
 # GridWorld RL: Q-Learning vs PPO RL Agent performance
 
-A comparative study of classical and deep reinforcement learning algorithms on the task of multi-goal sequential navigation task with dynamic obstacles in a gridworld(Pygame environment).
+A comparative study of classical and deep reinforcement learning algorithms on the task of multi-goal sequential navigation task with dynamic obstacles in a gridworld setup on a Pygame environment.
 
-## Contributors
+**ScreenCapture of Trained skrl PPO agent evaluated over 100 episodes**
 
-- [Sai Mukkundan Ramamoorthy](mailto:sai.ramamoorthy@smail.inf.h-brs.de) (for SKRL environment setup and PPO RL Agent)
-- [Aaron Cuthinho](mailto:aaron.cuthinho@smail.inf.h-brs.de) (for Grid world environment setup & Q-learning Agent)
-
----
+[Trained skrl PPO agent evaluated over 100 episodes](https://github.com/user-attachments/assets/61b35d87-5e19-4c7a-9ab1-42ec55b84273)
 
 ## Overview
 
-This project was done as part of HBRS Machine Learning Course Project. We implement and then compare two reinforcement learning approaches on a grid world with dynamic obstacles:
+**This project was done as part of HBRS Machine Learning Course Project**. We implement and then compare two reinforcement learning approaches on a grid world with dynamic obstacles:
 
 - **Q-Learning** — classical tabular RL (model-free, discrete)
 - **PPO (Proximal Policy Optimization)** — deep RL with Actor-Critic neural networks
@@ -69,6 +66,7 @@ The agent must reach all 4 goals **in order** within 200 steps.
 ---
 
 ## Results
+
 
 Both algorithms were evaluated over **100 episodes** on the same goal sequence and environment configuration.
 
@@ -250,7 +248,7 @@ python train.py
 # Saves model to:   runs/gridworld_ppo_*/final_agent.pt
 
 # Evaluate
-python evaluate.py
+python evaluate.py --model runs/gridworld_ppo_*/final_agent.pt (give --render to see the trained rl agent move through obstacle)
 # Saves results to: ppo_eval_log.csv
 ```
 
@@ -269,3 +267,12 @@ tensorboard --logdir runs/
 - Schulman, J., et al. (2017). *Proximal Policy Optimization Algorithms*. arXiv:1707.06347
 - skrl library: https://skrl.readthedocs.io/
 - OpenAI Spinning Up: https://spinningup.openai.com/
+
+---
+
+## Contributors
+
+- [Sai Mukkundan Ramamoorthy](mailto:sai.ramamoorthy@smail.inf.h-brs.de) (for SKRL environment setup and PPO RL Agent)
+- [Aaron Cuthinho](mailto:aaron.cuthinho@smail.inf.h-brs.de) (for Grid world environment setup & Q-learning Agent)
+
+

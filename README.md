@@ -66,9 +66,9 @@ The agent must reach all 4 goals **in order** within 200 steps.
 ---
 
 ## Results
-
-
-Both algorithms were evaluated over **100 episodes** on the same goal sequence and environment configuration.
+Below is the tensorboard results from Q-learning followed by PPO agent evaluated over **100 episodes** on the same goal sequence and environment configuration.
+<img width="1027" height="704" alt="image" src="https://github.com/user-attachments/assets/75c92393-04d4-4b8b-bce0-1c79e8ca7bf9" />
+<img width="991" height="777" alt="image" src="https://github.com/user-attachments/assets/1cc0bd6f-005c-4f48-83f8-dc147432b037" />
 
 | Metric | Q-Learning | PPO (Deep RL) |
 | -------- | ----------- | --------------- |

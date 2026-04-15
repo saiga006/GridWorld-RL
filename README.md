@@ -8,7 +8,7 @@ A comparative study of classical and deep reinforcement learning algorithms on t
 
 ## Overview
 
-**This project was done as part of HBRS Machine Learning Course Project**. We implement and then compare two reinforcement learning approaches on a grid world with dynamic obstacles:
+**This project was developed as part of the coursework for the Machine Learning class at Hochschule Bonn-Rhein-Sieg during Winter Semester 2025.** We implemented and then compared two reinforcement learning approaches on a grid world with dynamic obstacles:
 
 - **Q-Learning** — classical tabular RL (model-free, discrete)
 - **PPO (Proximal Policy Optimization)** — deep RL with Actor-Critic neural networks
